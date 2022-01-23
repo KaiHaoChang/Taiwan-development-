@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem;
+}
+nav {
+  background-color: #3b383c;
+}
+nav ul {
+  display: flex;
+  padding-left: 1rem;
+  list-style: none;
+}
+nav ul li {
+  display: flex;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+}
+nav ul li a:hover {
+  background-color: rgb(165, 207, 66);
+}
+.headerTitle {
+  font-size: 2.5rem;
+}
+.headerText {
+  font-size: 1rem;
+}
+
+main {
+  width: 100%;
+  display: flex;
+}
+
+section.left,
+section.right {
+  padding: 1.5rem;
+}
+
+section.right h4 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+section.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.right p {
+  margin: 1rem 0rem;
+}
+
+.active {
+  background-color: rgb(165, 207, 66);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+}
+
+.container h3.topic {
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.title .container p {
+  color: rgb(78, 75, 75);
+  padding: 0.7rem 0rem;
+}
+.title .container ul li {
+  list-style-type: circle;
+  margin-left: 50px;
+}
